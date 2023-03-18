@@ -4,6 +4,9 @@ The script takes as input two CSV files (located in the same folder), then offer
 column of the first file with one from the second, taking as a reference the values in the table that indicate
 a correlation.
 
+### Requirements
+The script may work with any version of [Python 3](https://github.com/python/cpython).
+
 ### Example
 In the same folder as the script, we have two files: <code>games.csv</code> and <code>geners.csv</code>. The script
 automatically detects them and offers us the option to select which one to modify and which one to use as a reference.
